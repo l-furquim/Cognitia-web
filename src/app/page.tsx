@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/lib/components/ui/button";
 import NeutralNavBar from "@/shared/neutral-nav-bar";
 

@@ -1,7 +1,8 @@
-import { Button } from "@/lib/components/ui/button";
 import Image from "next/image";
 import { SimpleLink } from "./simple-link";
 import Link from "next/link";
+import { LoginButton } from "./login-button";
+import { RegisterButton } from "./register.button";
 
 export default function NeutralNavBar(){
   return (
@@ -21,12 +22,8 @@ export default function NeutralNavBar(){
         
       </div>
       <div className="space-x-8 w-full flex justify-end">
-        <Button size={"lg"} variant={"outline"} className="bg-zinc-800  hover:opacity-70">
-          Logar
-        </Button>
-        <Button className="hover:bg-zinc-300" size={"lg"} variant={"secondary"}>
-          Registrar
-        </Button>
+        <LoginButton/>
+        <RegisterButton/>
       </div>
     </div>
   )
