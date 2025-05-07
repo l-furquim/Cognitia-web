@@ -1,14 +1,10 @@
-import { Input } from "@/components/ui/input";
 import { Button } from "@/lib/components/ui/button";
-import NeutralNavBar from "@/shared/neutral-nav-bar";
-import { Github, MailPlus, Twitter } from "lucide-react";
+import { Github, Twitter } from "lucide-react";
 import Link from "next/link";
 import LoginForm from "./components/login-form";
 
 export default function LoginPage(){
   return (
-    <div className="p-4 h-full w-full flex items-center flex-col bg-zinc-800">
-       <NeutralNavBar/>
       <div className="w-full h-full flex justify-center items-center">
         <div className="w-[35vw] h-[70vh] bg-zinc-200 space-y-5 rounded-xl p-6 flex flex-col items-center justify-center">
             <h1 className="font-bold text-2xl">
@@ -39,6 +35,5 @@ export default function LoginPage(){
             </div>
         </div>
       </div>
-    </div>
   )
 }
