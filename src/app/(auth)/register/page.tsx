@@ -1,4 +1,6 @@
+import { Button } from "@/lib/components/ui/button";
 import RegisterForm from "./components/register-form";
+import { Github, Twitter } from "lucide-react";
 
 export default function RegisterPage(){
   return (
@@ -9,9 +11,6 @@ export default function RegisterPage(){
         </h1>
       </div>
       <div className="w-[50%] h-full space-y-5 bg-zinc-200 rounded-r-xl flex flex-col justify-center items-center">
-        <h1 className="text-xl font-bold">
-          Seu estudo começa aqui
-        </h1>
         <RegisterForm/>
       </div>
     </div>
