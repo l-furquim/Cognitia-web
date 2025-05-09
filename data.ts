@@ -220,3 +220,41 @@ export const courses = [
     }
   }
 ];
+
+export const videoHistory = [
+  {
+    lastVideoThumbUrl: "https://example.com/thumb1.jpg",
+    title: "Curso de JavaScript Moderno",
+    videoName: "Funções Assíncronas",
+    videoId: "vid-001",
+    videoDuration: 540,
+  },
+  {
+    lastVideoThumbUrl: "https://example.com/thumb2.jpg",
+    title: "React Avançado",
+    videoName: "Hooks Personalizados",
+    videoId: "vid-002",
+    videoDuration: 720,
+  },
+  {
+    lastVideoThumbUrl: "https://example.com/thumb3.jpg",
+    title: "Next.js na Prática",
+    videoName: "Rotas Dinâmicas",
+    videoId: "vid-003",
+    videoDuration: 480,
+  },
+  {
+    lastVideoThumbUrl: "https://example.com/thumb4.jpg",
+    title: "TypeScript Essencial",
+    videoName: "Interfaces e Tipagem",
+    videoId: "vid-004",
+    videoDuration: 610,
+  },
+  {
+    lastVideoThumbUrl: "https://example.com/thumb5.jpg",
+    title: "Design de Componentes",
+    videoName: "Atomic Design com Tailwind",
+    videoId: "vid-005",
+    videoDuration: 530,
+  },
+];

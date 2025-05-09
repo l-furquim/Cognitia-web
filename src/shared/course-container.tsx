@@ -15,7 +15,7 @@ export const CourseContainer: React.FC<Course> = (course) => {
         height={300}
         src="https://marketplace.canva.com/EAFNgl2fFFo/1/0/1600w/canva-miniatura-youtube-v%C3%ADdeo-curioso-gr%C3%A1tis-4BU-L3rT9uA.jpg"
         />
-      
+
         <h1 className="font-bold text-xl  text-zinc-200 w-full">
           {course.title}
         </h1>

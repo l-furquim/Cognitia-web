@@ -20,3 +20,11 @@ export interface Course{
     comment: string
   }
 }
+
+export interface UserHistoryCourse {
+  lastVideoThumbUrl: string,
+  title: string,
+  videoName: string,
+  videoId: string,
+  videoDuration: number
+}
