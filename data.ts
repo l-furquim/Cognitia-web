@@ -1,0 +1,222 @@
+export const courses = [
+  {
+    id: 1,
+    title: "Curso de Java Avançado",
+    description: "Aprenda conceitos avançados de Java incluindo Streams, Lambdas e Multithreading.",
+    requirements: "Conhecimento básico de Java",
+    skill: "Programação",
+    people: "Desenvolvedores backend",
+    price: 199.99,
+    thumbUrl: "/images/java-advanced.jpg",
+    createdAt: "2024-09-01T10:00:00Z",
+    totalHours: 40.0,
+    totalRate: 4.7,
+    totalStudents: 1200,
+    lastUpdate: "2025-01-15T15:30:00Z",
+    language: "Português",
+    topics: ["Streams", "Lambdas", "Threads", "Design Patterns"],
+    featuredReview: {
+      reviewer: "João Silva",
+      rating: 4.8,
+      comment: "Excelente curso com conteúdo prático!"
+    }
+  },
+  {
+    id: 2,
+    title: "Introdução ao Python",
+    description: "Comece a programar com Python do zero.",
+    requirements: "Nenhum",
+    skill: "Programação",
+    people: "Iniciantes",
+    price: 99.00,
+    thumbUrl: "/images/python-intro.jpg",
+    createdAt: "2024-08-21T09:15:00Z",
+    totalHours: 40.0,
+    totalRate: 4.7,
+    totalStudents: 1200,
+    lastUpdate: "2025-01-10T10:00:00Z",
+    language: "Português",
+    topics: ["Sintaxe", "Variáveis", "Funções", "Loops"],
+    featuredReview: {
+      reviewer: "Maria Oliveira",
+      rating: 4.6,
+      comment: "Ótimo para quem está começando!"
+    }
+  },
+  {
+    id: 3,
+    title: "Desenvolvimento Web com React",
+    description: "Construa aplicações modernas com React.",
+    requirements: "HTML, CSS e JavaScript básico",
+    skill: "Front-end",
+    people: "Desenvolvedores web",
+    price: 149.50,
+    thumbUrl: "/images/react-course.jpg",
+    createdAt: "2024-07-10T11:00:00Z",
+    totalHours: 40.0,
+    totalRate: 4.7,
+    totalStudents: 1200,
+    lastUpdate: "2025-01-20T13:30:00Z",
+    language: "Português",
+    topics: ["JSX", "Hooks", "Componentes", "State Management"],
+    featuredReview: {
+      reviewer: "Carlos Dias",
+      rating: 4.9,
+      comment: "Curso muito didático e completo!"
+    }
+  },
+  {
+    id: 4,
+    title: "Fundamentos de Data Science",
+    description: "Explore conceitos fundamentais de ciência de dados com Python.",
+    requirements: "Lógica de programação",
+    skill: "Data Science",
+    people: "Analistas e cientistas de dados",
+    price: 249.00,
+    thumbUrl: "/images/data-science.jpg",
+    createdAt: "2024-06-05T14:20:00Z",
+    totalHours: 40.0,
+    totalRate: 4.7,
+    totalStudents: 1200,
+    lastUpdate: "2025-02-01T09:00:00Z",
+    language: "Português",
+    topics: ["Pandas", "NumPy", "Visualização", "Estatística"],
+    featuredReview: {
+      reviewer: "Fernanda Lima",
+      rating: 4.7,
+      comment: "Conteúdo excelente para iniciantes!"
+    }
+  },
+  {
+    id: 5,
+    title: "UI/UX Design para Web",
+    description: "Aprenda princípios de design aplicados ao desenvolvimento web.",
+    requirements: "Noções de design gráfico",
+    skill: "Design",
+    people: "Designers e front-end developers",
+    price: 130.00,
+    thumbUrl: "/images/ui-ux.jpg",
+    createdAt: "2024-09-12T08:45:00Z",
+    totalHours: 40.0,
+    totalRate: 4.7,
+    totalStudents: 1200,
+    lastUpdate: "2025-02-10T14:10:00Z",
+    language: "Português",
+    topics: ["Wireframes", "Prototipagem", "Figma", "Acessibilidade"],
+    featuredReview: {
+      reviewer: "Gabriel Costa",
+      rating: 4.5,
+      comment: "Boa base para quem quer começar com design de interfaces."
+    }
+  },
+  {
+    id: 6,
+    title: "DevOps com Docker e Kubernetes",
+    description: "Automatize o ciclo de vida de aplicações com as ferramentas mais usadas do mercado.",
+    requirements: "Conhecimento básico de Linux e redes",
+    skill: "DevOps",
+    people: "DevOps Engineers",
+    price: 299.99,
+    thumbUrl: "/images/devops.jpg",
+    createdAt: "2024-05-18T16:00:00Z",
+    totalHours: 40.0,
+    totalRate: 4.7,
+    totalStudents: 1200,
+    lastUpdate: "2025-03-01T17:45:00Z",
+    language: "Português",
+    topics: ["Docker", "Kubernetes", "CI/CD", "Monitoramento"],
+    featuredReview: {
+      reviewer: "Renato Mendes",
+      rating: 5.0,
+      comment: "Curso indispensável para quem quer trabalhar com DevOps."
+    }
+  },
+  {
+    id: 7,
+    title: "Machine Learning com Scikit-learn",
+    description: "Implemente algoritmos de aprendizado de máquina com Scikit-learn.",
+    requirements: "Python intermediário",
+    skill: "Machine Learning",
+    people: "Cientistas de dados",
+    price: 275.50,
+    thumbUrl: "/images/ml-course.jpg",
+    createdAt: "2024-08-02T12:30:00Z",
+    totalHours: 40.0,
+    totalRate: 4.7,
+    totalStudents: 1200,
+    lastUpdate: "2025-01-25T11:15:00Z",
+    language: "Português",
+    topics: ["Regressão", "Classificação", "Modelos", "Validação cruzada"],
+    featuredReview: {
+      reviewer: "Juliana Souza",
+      rating: 4.8,
+      comment: "Explicações claras e exercícios práticos."
+    }
+  },
+  {
+    id: 8,
+    title: "Engenharia de Software com Java",
+    description: "Aprenda os pilares da engenharia de software moderna utilizando Java.",
+    requirements: "Experiência básica em programação",
+    skill: "Arquitetura de software",
+    people: "Desenvolvedores seniores",
+    price: 220.00,
+    thumbUrl: "/images/software-engineering.jpg",
+    createdAt: "2024-07-22T09:00:00Z",
+    totalHours: 40.0,
+    totalRate: 4.7,
+    totalStudents: 1200,
+    lastUpdate: "2025-01-12T16:20:00Z",
+    language: "Português",
+    topics: ["SOLID", "DDD", "Clean Code", "Refatoração"],
+    featuredReview: {
+      reviewer: "Lucas Ferreira",
+      rating: 4.9,
+      comment: "Conteúdo aprofundado e direto ao ponto."
+    }
+  },
+  {
+    id: 9,
+    title: "Desenvolvimento Android com Kotlin",
+    description: "Crie aplicativos Android nativos com Kotlin.",
+    requirements: "Java ou outra linguagem orientada a objetos",
+    skill: "Mobile",
+    people: "Desenvolvedores mobile",
+    price: 189.99,
+    thumbUrl: "/images/kotlin.jpg",
+    createdAt: "2024-09-05T13:45:00Z",
+    totalHours: 40.0,
+    totalRate: 4.7,
+    totalStudents: 1200,
+    lastUpdate: "2025-01-18T10:00:00Z",
+    language: "Português",
+    topics: ["Layouts", "Intents", "APIs", "Jetpack"],
+    featuredReview: {
+      reviewer: "Ana Beatriz",
+      rating: 4.6,
+      comment: "Curso excelente para iniciantes em mobile."
+    }
+  },
+  {
+    id: 10,
+    title: "C# e .NET para Aplicações Web",
+    description: "Construa aplicações robustas com C# e ASP.NET.",
+    requirements: "Conhecimentos em programação",
+    skill: "Desenvolvimento web",
+    people: "Desenvolvedores .NET",
+    price: 210.00,
+    thumbUrl: "/images/dotnet.jpg",
+    createdAt: "2024-06-28T10:30:00Z",
+    totalHours: 40.0,
+    totalRate: 4.7,
+    totalStudents: 1200,
+    lastUpdate: "2025-02-05T12:40:00Z",
+    language: "Português",
+    topics: ["Razor Pages", "Entity Framework", "API REST", ".NET Core"],
+    featuredReview: {
+      reviewer: "Eduardo Ramos",
+      rating: 4.7,
+      comment: "Muito completo e bem estruturado."
+    }
+  }
+];

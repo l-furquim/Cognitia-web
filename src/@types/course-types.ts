@@ -1,0 +1,22 @@
+export interface Course{
+  id: number,
+  title: string,
+  description: string,
+  requirements: string,
+  skill: string,
+  people: string,
+  price: number,
+  thumbUrl: string,
+  createdAt: string,
+  totalHours: number,
+  totalRate: number,
+  totalStudents: number,
+  lastUpdate: string,
+  language: string,
+  topics: string[],
+  featuredReview: {
+    reviewer: string,
+    rating: number,
+    comment: string
+  }
+}
