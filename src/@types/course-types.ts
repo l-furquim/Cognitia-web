@@ -8,6 +8,7 @@ export interface Course{
   price: number,
   thumbUrl: string,
   createdAt: string,
+  totalReviews: number,
   totalHours: number,
   totalRate: number,
   totalStudents: number,
