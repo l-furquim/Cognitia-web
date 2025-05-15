@@ -1,4 +1,4 @@
-export const CourseReviews = ({  }) => {
+export const CourseReviews = ({    }) => {
   return (
     <div className="flex flex-col pt-10">
       <h1 className="font-bold text-3xl text-zinc-200">

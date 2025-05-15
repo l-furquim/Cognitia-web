@@ -9,7 +9,7 @@ export default function NeutralNavBar(){
     <div className="w-full items-center text-lg flex p-3 text-zinc-200">
       <div className="space-x-10 flex items-center">
         <Link href={"/"} className="hover:cursor-pointer">
-          <Image alt="Cognitia logo" width={800} height={800} src={"/logo.png"} />
+          <Image alt="Cognitia logo" width={1000} height={1000} src={"/Logo.svg"} />
         </Link>
         
         <SimpleLink href="/explore" content="Explorar" />
@@ -22,8 +22,8 @@ export default function NeutralNavBar(){
         
       </div>
       <div className="space-x-8 w-full flex justify-end">
-        <LoginButton/>
         <RegisterButton/>
+        <LoginButton/>
       </div>
     </div>
   )

@@ -13,6 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: 'brain-logo.svg',
+  },
   title: "Cognitia",
   description: "Plataforma de microcursos liberados por progressão",
 };
